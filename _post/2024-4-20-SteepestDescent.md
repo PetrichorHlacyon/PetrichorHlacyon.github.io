@@ -1,3 +1,16 @@
+---
+layout:     post   				    # 使用的布局（不需要改）
+title:      Steepest Descent 				# 标题 
+subtitle:     #副标题
+date:       2024-04-20 				# 时间
+author:     BlueArt 						# 作者
+header-img: img/post-bg-2015.jpg 	#这篇文章标题背景图片
+catalog: true 						# 是否归档
+tags:								#标签
+    - Convex Optimization, Steepest Descent
+---
+
+
 # 问题引入
 本质是求二次规划问题(Quadratic Form)的最小值,形式如下
 $$x^* \in \min_{x} \, f(x) = \min_{x}\,\frac{1}{2}x^T A x -b^T x+c$$
