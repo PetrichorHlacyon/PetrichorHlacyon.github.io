@@ -62,6 +62,7 @@ $$
 d_k= \begin{cases} u_0  \qquad\qquad \qquad\qquad,k=0 \\ u_k - \sum_{i=0}^{k-1}\frac{u_k^TAd_i}{d_i^TAd_i} d_i\quad ,else\end{cases}
 $$
 
+上面介绍了将一组向量转化成A-conjugate的方法，而共轭梯度法中则是把$u_0,u_1,...,u_n$选择为残差方向
 # 一群正交和A-conjugate性质
 
 1. $d_i^TAe_k=0,\forall i \in \{0,1,2,...,k-1\}$
@@ -74,6 +75,10 @@ $$
 - 从$f(x_k)$角度分析，由于$x_k=x_0+\sum_{j=0}^{k-1}\alpha_jd_j$，和上面一样每次迭代就是选择一组$d_0,d_1,...,d_{k-1}$的线性组合，如果记$\mathcal{D}_i=span\{d_0,d_1,...,d_{i-1}\}$，那么每次迭代就是选择$x_k\in x_0+\mathcal{D}_{k}$，使得$f(x_k)$最小。
 
 直观上看，如果把$f(x)$画成空间中一簇簇等高线，第一次迭代就是找一条从$x_0$出发的线，使得沿着这条线$f(x_k)$最小；第二次迭代就是找一个面，从$x_0$出发，使得$f(x_k)$最小，同样也可以等价理解成找一个从$x_1$出发的线，并且这条线和之前的是$A-conjugate$的，使得沿着这条线$f(x_k)$最小。
+
+
+# Krylov Method
+
 # 重要性质
 ## 1. Conjugate Method至多$n$步到达最优解，这里$n$为优化变量的特征维度
 $Definition1:$ $d_i,d_j,$  are $A-conjugate$ $\Leftrightarrow d_i^TAd_j =0，\forall i \ne j$$.
