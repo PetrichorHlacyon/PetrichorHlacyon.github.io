@@ -65,14 +65,13 @@
                     </div>
                 </div>
                 <div class="row subsection">
-                    <div class="emph col">AI Engineer Intern</div>
+                    <div class="emph col">Graduate Researcher</div>
                     <div class="col-right light">Sep. 2025 - Jan. 2026</div>
                 </div>
                 <ul class="desc">
-                    <li>Designed a topology-conditioned hyperparameter prediction framework that jointly learns optimal step sizes and doubly stochastic mixing matrices, achieving faster convergence over fixed and dynamic communication graphs compared to hand-tuned baselines</li>
-                    <li>Trained a sequence model on optimization trajectories to predict topology-optimal step sizes and mixing matrices in a supervised in-context learning paradigm</li>
-                    <li> Extended trajectory-supervised hyperparameter prediction to time-varying graphs, enabling online adaptation of communication weights as topology evolves</li>
-                    <li> Replaced heuristic edge selection and neighbor weighting with trajectory-conditioned predictions, improving convergence efficiency across gossip and broadcast protocols</li>
+                    <li>Trained a sequence model on optimization trajectories to predict topology-optimal step sizes and doubly stochastic mixing matrices under a supervised in-context learning paradigm, reducing required iterations by up to 200 on sparse graphs (p=0.3) against FDGM and DIGing baselines</li>
+                    <li>Extended trajectory-supervised hyperparameter prediction to time-varying graphs, enabling online adaptation of communication weights as topology evolves across 500-iteration horizons</li>
+                    <li>Replaced heuristic edge selection and neighbor weighting with trajectory-conditioned predictions, cutting convergence iterations by up to 300 under gossip and broadcast protocols on Census and Digits datasets</li>
                 </ul>
             </div>
         </div>
