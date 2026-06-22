@@ -1,138 +1,199 @@
 <!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Zelin Yao - Resume</title>
+    <meta charset="UTF-8">
+    <title>Zelin Yao - Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Source+Sans+Pro:400,400i"
+        rel="stylesheet">
 </head>
+
 <body>
-  <main class="page">
-    <header>
-      <h1><strong>Zelin</strong> Yao</h1>
-      <div class="contact">
-        <div>+86 15972065629</div>
-        <div><a href="mailto:yaozl2024@shanghaitech.edu.cn">yaozl2024@shanghaitech.edu.cn</a></div>
-        <div><a href="https://PetrichorHlacyon.github.io">PetrichorHlacyon.github.io</a></div>
-      </div>
-    </header>
-
-    <section class="section">
-      <h2>Research Interests</h2>
-      <div class="content tags">
-        <span class="tag">Intelligent Systems</span>
-        <span class="tag">Distributed Optimization</span>
-        <span class="tag">AI Agents</span>
-        <span class="tag">Computer Science</span>
-        <span class="tag">Vibe Coding</span>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Skills</h2>
-      <div class="content tags">
-        <span class="tag">C++</span>
-        <span class="tag">Kubernetes</span>
-        <span class="tag">Python</span>
-        <span class="tag">LangChain</span>
-        <span class="tag">Photoshop / Premiere Pro</span>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Education</h2>
-      <div class="content">
-        <div class="item">
-          <h3>M.S. in Computer Science</h3>
-          <p>School of Information Science and Technology, ShanghaiTech University</p>
-          <div class="meta">
-            <span>Shanghai, China</span>
-            <span>Sep 2024 - May 2027</span>
-          </div>
+    <div class="page">
+        <div class="section row">
+            <h1 class="col"><span style="font-weight:700">Zelin</span> Yao</h1>
+            <div class="contact-info col-right">
+                <div>
+                    +86 15972065629
+                </div>
+                <div><a href="mailto:yaozl2024@shanghaitech.edu.cn">yaozl2024@shanghaitech.edu.cn</a></div>
+                <div><a href="https://PetrichorHlacyon.github.io">PetrichorHlacyon.github.io</a></div>
+            </div>
         </div>
 
-        <div class="item">
-          <h3>B.S. in Automation</h3>
-          <p>Wuhan University of Science and Technology</p>
-          <div class="meta">
-            <span>Wuhan, China</span>
-            <span>Sep 2020 - Jul 2024</span>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section">
-      <h2>Research</h2>
-      <div class="content">
-        <div class="item">
-          <h3>Topology-Aware Adaptive Theory and Algorithms for Distributed Optimization</h3>
-          <div class="meta">
-            <span class="role">Graduate Researcher</span>
-            <span>Aug 2025 - Jan 2026</span>
-          </div>
-          <ul>
-            <li>Built a supervised in-context learning framework that trains sequence models on optimization trajectories to predict topology-aware step sizes and doubly stochastic mixing matrices.</li>
-            <li>Reduced iterations by up to 200 on sparse graphs with edge probability p=0.3 compared with FDGM, DIGing, and related baselines.</li>
-            <li>Extended trajectory-supervised hyperparameter prediction to time-varying graphs, enabling online adaptation of communication weights for optimization runs beyond 500 iterations.</li>
-            <li>Replaced heuristic edge selection and neighbor weighting with trajectory-conditioned prediction, reducing convergence iterations by up to 300 under Gossip and Broadcast protocols on Census and Digits datasets.</li>
-          </ul>
+        <div class="section row">
+            <h2 class="col">Research Interests</h2>
+            <div class="section-text col-right">
+                <span class="key">Intelligent Systems</span>
+                <span class="key">Distributed Optimization</span>
+                <span class="key">AI Agents</span>
+                <span class="key">Computer Science</span>
+                <span class="key">Vibe Coding</span>
+            </div>
         </div>
 
-        <div class="item">
-          <h3>Memory-Augmented LLM Framework for General Distributed Optimization Algorithm Discovery</h3>
-          <div class="meta">
-            <span class="role">Graduate Researcher</span>
-            <span>Mar 2026 - Present</span>
-          </div>
-          <ul>
-            <li>Expanded the framework to broader optimization algorithm discovery tasks and evaluated its out-of-distribution generalization across four datasets and dozens of baselines.</li>
-            <li>Applied the framework to static and time-varying undirected and directed graph settings, reproducing classical algorithms and validating module necessity through ablation studies.</li>
-            <li>Explored transfer to reinforcement learning evaluation-function discovery, achieving effective results on synthetic datasets.</li>
-          </ul>
+        <div class="section row">
+            <h2 class="col">Skills</h2>
+            <div class="section-text col-right">
+                <span class="key">C++</span>
+                <span class="key">Kubernetes</span>
+                <span class="key">Python</span>
+                <span class="key">LangChain</span>
+                <span class="key">Photoshop / Premiere Pro</span>
+            </div>
         </div>
-      </div>
-    </section>
 
-    <section class="section">
-      <h2>Internship</h2>
-      <div class="content">
-        <div class="item">
-          <h3>
-            Cogonito AI
-            <a class="badge" href="https://xiaozhi-dev.cognitoaigo.com" target="_blank" rel="noopener">xiaozhi</a>
-          </h3>
-          <div class="meta">
-            <span class="role">AI Engineering Intern</span>
-            <span>Feb 2026 - Jun 2026</span>
-          </div>
-          <ul>
-            <li>Deployed and integrated Affine XiaoZhi and OpenClaw to support scalable, modular AI pipeline systems.</li>
-            <li>Debugged cross-layer issues spanning software, runtime, and hardware, improving system stability and deployment reliability.</li>
-          </ul>
+        <div class="section row">
+            <h2 class="col">Education</h2>
+
+            <div class="section-text col-right">
+                <h3><span class="emph">Computer Science</span> M.S.</h3>
+                <div>School of Information Science and Technology, ShanghaiTech University</div>
+                <div class="row">
+                    <div class="col light">Shanghai, China</div>
+                    <div class="col-right light">Sep 2024 - May 2027</div>
+                </div>
+            </div>
+
+            <div class="section-text col-right">
+                <h3><span class="emph">Automation</span> B.S.</h3>
+                <div>Wuhan University of Science and Technology</div>
+                <div class="row">
+                    <div class="col light">Wuhan, China</div>
+                    <div class="col-right light">Sep 2020 - Jul 2024</div>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
 
-    <section class="section">
-      <h2>Projects</h2>
-      <div class="content">
-        <h3><a href="https://github.com/PetrichorHlacyon">github.com/PetrichorHlacyon</a></h3>
-      </div>
-    </section>
+        <div class="section row">
+            <h2 class="col">Research Experience</h2>
 
-    <section class="section">
-      <h2>Honors</h2>
-      <div class="content">
-        <div class="item">
-          <h3>Outstanding Teaching Assistant, Matrix Computations</h3>
-          <div class="meta">
-            <span class="role">Teaching Assistant</span>
-            <span>Fall 2025</span>
-          </div>
-          <p>Recognized for excellent teaching support, Q&amp;A assistance, and student mentoring.</p>
+            <div class="section-text col-right">
+                <div class="row">
+                    <div class="col">
+                        <h3>Topology-Aware Adaptive Theory and Algorithms for Distributed Optimization</h3>
+                    </div>
+                </div>
+                <div class="row subsection">
+                    <div class="role col">Graduate Researcher</div>
+                    <div class="col-right light">Aug 2025 - Jan 2026</div>
+                </div>
+
+                <ul class="desc">
+                    <li>
+                        Built a supervised in-context learning framework that trains sequence models on optimization
+                        trajectories to predict topology-aware step sizes and doubly stochastic mixing matrices. On
+                        sparse graphs with edge probability p=0.3, the method reduced iterations by up to 200 compared
+                        with FDGM, DIGing, and related baselines.
+                    </li>
+
+                    <li>
+                        Extended trajectory-supervised hyperparameter prediction to time-varying graphs, enabling online
+                        adaptation of communication weights during topology evolution and supporting optimization runs
+                        beyond 500 iterations.
+                    </li>
+
+                    <li>
+                        Replaced heuristic edge selection and neighbor weighting with trajectory-conditioned prediction,
+                        reducing convergence iterations by up to 300 under Gossip and Broadcast protocols on Census and
+                        Digits datasets.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="section-text col-right">
+                <div class="row">
+                    <div class="col">
+                        <h3>Memory-Augmented LLM Framework for General Distributed Optimization Algorithm Discovery</h3>
+                    </div>
+                </div>
+                <div class="row subsection">
+                    <div class="role col">Graduate Researcher</div>
+                    <div class="col-right light">Mar 2026 - Present</div>
+                </div>
+
+                <ul class="desc">
+                    <li>
+                        Expanded the framework to broader optimization algorithm discovery tasks and evaluated its
+                        out-of-distribution generalization across four datasets against dozens of baselines, outperforming
+                        competing methods on most problems.
+                    </li>
+
+                    <li>
+                        Applied the framework to distributed optimization algorithm discovery on static and time-varying
+                        undirected and directed graphs, successfully reproducing classical algorithms and validating
+                        module necessity through ablation studies.
+                    </li>
+
+                    <li>
+                        Explored transfer to reinforcement learning evaluation-function discovery and achieved effective
+                        results on synthetic datasets, demonstrating the framework's transfer potential.
+                    </li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </section>
-  </main>
+
+        <div class="section row">
+            <h2 class="col">Internship Experience</h2>
+
+            <div class="section-text col-right">
+                <div class="row">
+                    <div class="col">
+                        <h3>
+                            Cogonito AI
+                            <a href="https://xiaozhi-dev.cognitoaigo.com" target="_blank" rel="noopener">xiaozhi</a>
+                        </h3>
+                    </div>
+                </div>
+
+                <div class="row subsection">
+                    <div class="emph col">AI Engineering Intern</div>
+                    <div class="col-right light">Feb 2026 - Jun 2026</div>
+                </div>
+
+                <ul class="desc">
+                    <li>
+                        Deployed and integrated Affine XiaoZhi and OpenClaw to support scalable, modular AI pipeline
+                        systems.
+                    </li>
+
+                    <li>
+                        Debugged cross-layer issues spanning software, runtime, and hardware, improving system stability
+                        and deployment reliability.
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="section row">
+            <h2 class="col">Projects</h2>
+            <div class="section-text col-right">
+                <h3><a href="https://github.com/PetrichorHlacyon">github.com/PetrichorHlacyon</a></h3>
+            </div>
+        </div>
+
+        <div class="section row">
+            <h2 class="col">Honors</h2>
+
+            <div class="section-text col-right">
+                <div class="row">
+                    <div class="col">
+                        <h3>Outstanding Teaching Assistant, Matrix Computations, 2025</h3>
+                    </div>
+                </div>
+
+                <div class="row subsection">
+                    <div class="emph col">Teaching Assistant</div>
+                    <div class="col-right light">Fall 2025</div>
+                </div>
+
+                <div class="desc">
+                    Recognized for excellent teaching support, Q&amp;A assistance, and student mentoring.
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
