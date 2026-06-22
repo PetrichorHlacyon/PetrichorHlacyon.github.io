@@ -1,163 +1,138 @@
 <!doctype html>
-<html lang="zh">
-
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>姚泽林 - 简历</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700|Source+Sans+Pro:400,400i"
-        rel="stylesheet">
-
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Zelin Yao - Resume</title>
+</head>
 <body>
-    <div class="page">
-        <div class="section row">
-            <h1 class="col"><span style="font-weight:700">姚</span> 泽林</h1>
-            <div class="contact-info col-right">
-                <div>
-                  &#43;86 &#49;&#53;&#57;&#55;&#50;&#48;&#54;&#53;&#54;&#50;&#57;
-                </div>
-                <div><a href="mailto:yaozl2024@shanghaitech.edu.cn">yaozl2024@shanghaitech.edu.cn</a></div>
-                <div><a href="https://PetrichorHlacyon.github.io">PetrichorHlacyon.github.io</a></div>
-            </div>
+  <main class="page">
+    <header>
+      <h1><strong>Zelin</strong> Yao</h1>
+      <div class="contact">
+        <div>+86 15972065629</div>
+        <div><a href="mailto:yaozl2024@shanghaitech.edu.cn">yaozl2024@shanghaitech.edu.cn</a></div>
+        <div><a href="https://PetrichorHlacyon.github.io">PetrichorHlacyon.github.io</a></div>
+      </div>
+    </header>
+
+    <section class="section">
+      <h2>Research Interests</h2>
+      <div class="content tags">
+        <span class="tag">Intelligent Systems</span>
+        <span class="tag">Distributed Optimization</span>
+        <span class="tag">AI Agents</span>
+        <span class="tag">Computer Science</span>
+        <span class="tag">Vibe Coding</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Skills</h2>
+      <div class="content tags">
+        <span class="tag">C++</span>
+        <span class="tag">Kubernetes</span>
+        <span class="tag">Python</span>
+        <span class="tag">LangChain</span>
+        <span class="tag">Photoshop / Premiere Pro</span>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Education</h2>
+      <div class="content">
+        <div class="item">
+          <h3>M.S. in Computer Science</h3>
+          <p>School of Information Science and Technology, ShanghaiTech University</p>
+          <div class="meta">
+            <span>Shanghai, China</span>
+            <span>Sep 2024 - May 2027</span>
+          </div>
         </div>
 
-        <div class="section row">
-            <h2 class="col">研究兴趣</h2>
-            <div class="section-text col-right">
-                <span class="key">智能系统</span>
-                <span class="key">分布式优化</span>
-                <span class="key">AI Agent</span>
-                <span class="key">计算机科学</span>
-                <span class="key">Vibe Coding</span>
-            </div>
+        <div class="item">
+          <h3>B.S. in Automation</h3>
+          <p>Wuhan University of Science and Technology</p>
+          <div class="meta">
+            <span>Wuhan, China</span>
+            <span>Sep 2020 - Jul 2024</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Research</h2>
+      <div class="content">
+        <div class="item">
+          <h3>Topology-Aware Adaptive Theory and Algorithms for Distributed Optimization</h3>
+          <div class="meta">
+            <span class="role">Graduate Researcher</span>
+            <span>Aug 2025 - Jan 2026</span>
+          </div>
+          <ul>
+            <li>Built a supervised in-context learning framework that trains sequence models on optimization trajectories to predict topology-aware step sizes and doubly stochastic mixing matrices.</li>
+            <li>Reduced iterations by up to 200 on sparse graphs with edge probability p=0.3 compared with FDGM, DIGing, and related baselines.</li>
+            <li>Extended trajectory-supervised hyperparameter prediction to time-varying graphs, enabling online adaptation of communication weights for optimization runs beyond 500 iterations.</li>
+            <li>Replaced heuristic edge selection and neighbor weighting with trajectory-conditioned prediction, reducing convergence iterations by up to 300 under Gossip and Broadcast protocols on Census and Digits datasets.</li>
+          </ul>
         </div>
 
-        <div class="section row">
-            <h2 class="col">技能</h2>
-            <div class="section-text col-right">
-                <span class="key">C++</span>
-                <span class="key">k8s</span>
-                <span class="key">Python</span>
-                <span class="key">Langchain</span>
-                <span class="key">Photoshop / PR</span>
-            </div>
+        <div class="item">
+          <h3>Memory-Augmented LLM Framework for General Distributed Optimization Algorithm Discovery</h3>
+          <div class="meta">
+            <span class="role">Graduate Researcher</span>
+            <span>Mar 2026 - Present</span>
+          </div>
+          <ul>
+            <li>Expanded the framework to broader optimization algorithm discovery tasks and evaluated its out-of-distribution generalization across four datasets and dozens of baselines.</li>
+            <li>Applied the framework to static and time-varying undirected and directed graph settings, reproducing classical algorithms and validating module necessity through ablation studies.</li>
+            <li>Explored transfer to reinforcement learning evaluation-function discovery, achieving effective results on synthetic datasets.</li>
+          </ul>
         </div>
+      </div>
+    </section>
 
-        <div class="section row">
-            <h2 class="col">教育背景</h2>
-
-            <div class="section-text col-right">
-                <h3><span class="emph">计算机科学与技术</span> 硕士</h3>
-                <div>上海科技大学，信息科学与技术学院（SIST）</div>
-                <div class="row">
-                    <div class="col light">中国，上海</div>
-                    <div class="col-right light">2024年9月 - 2027年5月</div>
-                </div>
-            </div>
-
-            <div class="section-text col-right">
-                <h3><span class="emph">自动化</span> 学士</h3>
-                <div>武汉科技大学</div>
-                <div class="row">
-                    <div class="col light">中国，武汉</div>
-                    <div class="col-right light">2020年9月 - 2024年7月</div>
-                </div>
-            </div>
+    <section class="section">
+      <h2>Internship</h2>
+      <div class="content">
+        <div class="item">
+          <h3>
+            Cogonito AI
+            <a class="badge" href="https://xiaozhi-dev.cognitoaigo.com" target="_blank" rel="noopener">xiaozhi</a>
+          </h3>
+          <div class="meta">
+            <span class="role">AI Engineering Intern</span>
+            <span>Feb 2026 - Jun 2026</span>
+          </div>
+          <ul>
+            <li>Deployed and integrated Affine XiaoZhi and OpenClaw to support scalable, modular AI pipeline systems.</li>
+            <li>Debugged cross-layer issues spanning software, runtime, and hardware, improving system stability and deployment reliability.</li>
+          </ul>
         </div>
+      </div>
+    </section>
 
-        <div class="section row">
-            <h2 class="col">科研经历</h2>
+    <section class="section">
+      <h2>Projects</h2>
+      <div class="content">
+        <h3><a href="https://github.com/PetrichorHlacyon">github.com/PetrichorHlacyon</a></h3>
+      </div>
+    </section>
 
-            <div class="section-text col-right">
-                <div class="row">
-                    <div class="col">
-                        <h3>具备自适应学习能力的拓扑感知分布式优化</h3>
-                    </div>
-                </div>
-
-                <div class="row subsection">
-                    <div class="emph col">研究生科研人员</div>
-                    <div class="col-right light">2025年9月 - 2026年1月</div>
-                </div>
-
-                <ul class="desc">
-                    <li>
-                        在监督式上下文学习框架下，基于优化轨迹训练序列模型，用于预测拓扑最优步长与双随机混合矩阵；相比 FDGM 与 DIGing 基线方法，在稀疏图（p=0.3）上最多减少 200 次迭代
-                    </li>
-
-                    <li>
-                        将基于轨迹监督的超参数预测扩展至时变图场景，实现通信拓扑演化过程中通信权重的在线自适应调整，并支持长达 500 次迭代的优化过程
-                    </li>
-
-                    <li>
-                        使用轨迹条件化预测替代启发式边选择与邻居加权策略，在 Census 与 Digits 数据集上的 gossip 与 broadcast 协议下，至少减少 100 次收敛迭代
-                    </li>
-                </ul>
-            </div>
+    <section class="section">
+      <h2>Honors</h2>
+      <div class="content">
+        <div class="item">
+          <h3>Outstanding Teaching Assistant, Matrix Computations</h3>
+          <div class="meta">
+            <span class="role">Teaching Assistant</span>
+            <span>Fall 2025</span>
+          </div>
+          <p>Recognized for excellent teaching support, Q&amp;A assistance, and student mentoring.</p>
         </div>
-
-        <div class="section row">
-            <h2 class="col">实习经历</h2>
-
-            <div class="section-text col-right">
-                <div class="row">
-                    <div class="col">
-                        <h3>
-                            Cogonito AI
-                            <a href="https://xiaozhi-dev.cognitoaigo.com" target="_blank"
-                               style="font-size: 0.65em; padding: 2px 6px; border-radius: 6px;
-                                      background: #f3f4f6; color: #374151; text-decoration: none; margin-left: 6px;">
-                                xiaozhi
-                            </a>
-                        </h3>
-                    </div>
-                </div>
-
-                <div class="row subsection">
-                    <div class="emph col">AI 工程师实习生</div>
-                    <div class="col-right light">2026年4月 - 至今</div>
-                </div>
-
-                <ul class="desc">
-                    <li>
-                        部署并集成 Affine XiaoZhi 与 OpenClaw 框架，以支持可扩展、模块化的 AI 流水线系统
-                    </li>
-
-                    <li>
-                        调试软件、运行时与硬件层面的跨层系统问题，提高系统稳定性与部署可靠性
-                    </li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="section row">
-            <h2 class="col">项目经历</h2>
-            <div class="section-text col-right">
-                <h3><a href="https://github.com/PetrichorHlacyon">github.com/PetrichorHlacyon</a></h3>
-            </div>
-        </div>
-
-        <div class="section row">
-            <h2 class="col">荣誉奖项</h2>
-
-            <div class="section-text col-right">
-                <div class="row">
-                    <div class="col">
-                        <h3>2025 年《矩阵计算》优秀助教</h3>
-                    </div>
-                </div>
-
-                <div class="row subsection">
-                    <div class="emph col">课程助教</div>
-                    <div class="col-right light">2025年秋季学期</div>
-                </div>
-
-                <div class="desc">
-                    因在教学支持、问题解答与学生指导方面表现优秀而获得表彰。
-                </div>
-            </div>
-        </div>
-    </div>
+      </div>
+    </section>
+  </main>
 </body>
-
 </html>
